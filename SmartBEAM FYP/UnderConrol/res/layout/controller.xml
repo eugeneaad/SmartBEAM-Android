@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+    
+    <TableRow
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/btnPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_button"
+            android:text="Power"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnVolumeUp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/roundbackground"
+            android:text="Vol+"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnVolumeDown"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Vol-"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnMute"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round_button"
+            android:text="Mute"
+            android:textColor="#fff" />
+
+    </TableRow>
+	</RelativeLayout>
+	<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnPhoto"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Photo"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnUp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/roundbackground"
+            android:text="Up"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnMusic"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Music"
+            android:textColor="#fff" />
+
+    </TableRow>
+</RelativeLayout>
+<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TableRow
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Left"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="OK"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Right"
+            android:textColor="#fff" />
+
+    </TableRow>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TableRow
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnVideo"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Video"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnDown"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Down"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnText"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Text"
+            android:textColor="#fff" />
+
+    </TableRow>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TableRow
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Menu"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Exit"
+            android:textColor="#fff" />
+
+
+    </TableRow>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TableRow
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/btnPlayBack"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="PlayBack"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnPlayPause"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Play/Pause"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnPlayForward"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="PlayForward"
+            android:textColor="#fff" />
+
+    </TableRow>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <TableRow
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Previous"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Stop"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundbackground"
+            android:text="Next"
+            android:textColor="#fff" />
+
+    </TableRow>
+
+    </RelativeLayout>
+
+</TableLayout>

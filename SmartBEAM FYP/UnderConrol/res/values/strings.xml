@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartBEAM</string>
+    <string name="action_settings">Settings</string>
+    <string name="cPower">0x4CB3817E</string>
+    <string name="cEnter">0x4CB353AC</string>
+    <string name="cUp">0x4CB3639C</string>
+    <string name="cDown">0x4CB3E31C</string>
+    <string name="cLeft">0x4CB313EC</string>
+    <string name="cRight">0x4CB3936C</string>
+    <string name="c1">0x4CB3E11E</string>
+    <string name="c2">0x4CB311EE</string>
+    <string name="c3">0x4CB3916E</string>
+    <string name="c4">0x4CB3619E</string>
+    <string name="c5">0x4CB3D12E</string>
+    <string name="c6">0x4CB351AE</string>
+    <string name="c7">0x4CB3C13E</string>
+    <string name="c8">0x4CB3718E</string>
+    <string name="c9">0x4CB3B14E</string>
+    <string name="choice">Choice</string>
+	<string name="button_label">Change Time</string> 
+	<string name="time_txt">Current Time (H:M): </string> 
+	<string name="menu_settings">Settings</string> 
+	
+	<string name="CodePower">0xFF00FF</string>
+	<string name="CodeMute">0xFF807F</string>
+	<string name="CodeVolumeUp">0xFF9867</string>
+	<string name="CodeVolumeDown">0xFF38C7</string>
+	<string name="CodeUp">0xFF08F7</string>
+	<string name="CodeDown">0xFF28D7</string>
+	<string name="CodeLeft">0xFF8877</string>
+	<string name="CodeRight">0xFFC837</string>
+	<string name="CodeOK">0xFF6897</string>
+	<string name="CodePhoto">0xFF40BF</string>
+	<string name="CodeMusic">0xFFC03F</string>
+	<string name="CodeVideo">0xFF20DF</string>
+	<string name="CodeText">0xFF609F</string>
+	<string name="CodeMenu">0xFF708F</string>
+	<string name="CodeExit">0xFFF00F</string>
+	<string name="CodePlayBack">0xFF10EF</string>
+	<string name="CodePlayPause">0xFFA05F</string>
+	<string name="CodePlayForward">0xFF50AF</string>
+	<string name="CodePrevious">0xFFE817</string>
+	<string name="CodeStop">0xFFE01F</string>
+	<string name="CodeNext">0xFF58A7</string>
+	
+    
+</resources>
